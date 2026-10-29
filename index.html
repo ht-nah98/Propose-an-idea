@@ -295,6 +295,45 @@ body.ov #stage{display:none} #ov{display:none} body.ov #ov{display:grid;grid-tem
 <aside>Về mặt kỹ thuật: hai video mẫu này dựng hoàn toàn bằng code — chữ, đồ hoạ, chuyển cảnh, nhân vật. Với Claude và các công cụ AI hiện tại, team Tech viết được loại code này. Ưu điểm so với quay dựng truyền thống: muốn sửa chỉ cần sửa code rồi render lại, và một khi có khuôn, làm video thứ 10, thứ 100 nhanh hơn rất nhiều. (Video trái tự phát; bấm vào video phải để phát.)</aside>
 </section>
 
+<section id="opuscar" class="dark">
+<p class="kicker">Đề xuất 1 · Làm phim chỉ bằng quy trình và code</p>
+<h2>Opuscar 98: một mascot đi qua 98 phim Oscar, toàn bộ bằng code</h2>
+<div class="row" style="gap:64px;align-items:start">
+<video preload="none" src="media/opuscar98.mp4" poster="media/opuscar98.jpg" data-auto controls playsinline style="width:1000px;height:563px;flex:none"></video>
+<div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:44px 32px;align-content:start">
+<div class="stat"><p class="big" style="color:var(--red-l)">6:31</p><p>phút phim liền mạch</p></div>
+<div class="stat"><p class="big">98</p><p>phong cách hình ảnh, mỗi phim một kiểu</p></div>
+<div class="stat"><p class="big">0</p><p>mô hình tạo video được dùng</p></div>
+<div class="stat"><p class="big">9,3K</p><p>sao GitHub, mã nguồn mở</p></div>
+<p style="grid-column:1/-1;font-size:28px;line-height:1.4;color:#C9CED8;border-top:1px solid #2E323B;padding-top:28px">Đạo diễn, vẽ, nhạc, dựng: tất cả là code do Claude Opus 5.5 viết.</p>
+</div>
+</div>
+<p class="src">Lemomo · LemoLab — lemomo-ai.github.io/lemo-opuscar/opuscar98 · giấy phép MIT · trích 50 giây (1:00–1:50)</p>
+<aside>Một ví dụ rất gần với hướng mình đề xuất: Opuscar 98. Một nhân vật mascot tên Clawd đi qua toàn bộ 98 phim đoạt giải Phim hay nhất của Oscar, từ 1927 đến 2025; mỗi phim được vẽ lại bằng một phong cách riêng hợp với phim đó. Phim dài 6 phút 31 giây. Điểm quan trọng: không dùng bất kỳ mô hình tạo video nào — mọi khung hình, nốt nhạc, nhát cắt đều là code do Claude viết. Một người làm, với quy trình tốt và AI. Dự án mở mã nguồn, hơn 9 nghìn sao trên GitHub.</aside>
+</section>
+
+<section id="styles" style="gap:32px">
+<p class="kicker">Đề xuất 1 · Một nhân vật, vô số nội dung</p>
+<h2>Một mascot, đổi phong cách là ra nội dung mới</h2>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+<img class="shot" src="media/opus_s01.jpg" alt="Phong cách phim câm 3D" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s10.jpg" alt="Phong cách báo giấy cắt dán" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s30.jpg" alt="Phong cách bản vẽ kỹ thuật" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s40.jpg" alt="Phong cách tranh vẽ tay" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s50.jpg" alt="Phong cách cung điện 3D" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s60.jpg" alt="Phong cách hoàng hôn 3D" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s90.jpg" alt="Phong cách dưới nước" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+<img class="shot" src="media/opus_s98.jpg" alt="Phong cách road movie 3D" style="width:100%;aspect-ratio:2.4;object-fit:cover">
+</div>
+<div class="row" style="gap:28px">
+<div class="card" style="flex:1;padding:24px 28px;gap:8px"><h3 style="font-size:32px">66 phong cách đóng gói sẵn</h3><p style="font-size:26px">Mỗi phong cách là một prompt dùng lại được kèm một phim mẫu.</p></div>
+<div class="card" style="flex:1;padding:24px 28px;gap:8px"><h3 style="font-size:32px">11 nhóm nội dung</h3><p style="font-size:26px">Tin tức, dữ liệu, giới thiệu sản phẩm, hoạt hình, game…</p></div>
+<div class="card" style="flex:1;padding:24px 28px;gap:8px;border:3px solid var(--red)"><h3 style="font-size:32px">Với công ty mình</h3><p style="font-size:26px">Mascot của mình vào được MV, lyric, tin nhạc, quảng cáo, mỗi thứ một kiểu.</p></div>
+</div>
+<p class="src">Khung hình từ Opuscar 98 (Lemomo, MIT) · bộ 66 phong cách: github.com/lemomo-ai/lemo-opuscar</p>
+<aside>Nhìn tám khung hình này: cùng một nhân vật, nhưng mỗi cảnh là một thế giới khác — phim câm, báo giấy, bản vẽ kỹ thuật, tranh vẽ tay, 3D. Tác giả đóng gói cách làm thành 66 phong cách, mỗi phong cách là một prompt dùng lại kèm phim mẫu, chia 11 nhóm: tin tức, dữ liệu, sản phẩm, hoạt hình, game. Ý nghĩa với mình: khi đã có một mascot và quy trình, nhân vật đó có thể xuất hiện trong MV, video lyric, tin âm nhạc, quảng cáo — mỗi thứ một phong cách mà không phải làm lại từ đầu.</aside>
+</section>
+
 <section id="ourmv" class="dark">
 <p class="kicker">Đề xuất 1 · Chúng ta đã làm thử</p>
 <h2>Hai MV có nhân vật riêng, team tự làm</h2>
@@ -304,6 +343,26 @@ body.ov #stage{display:none} #ov{display:none} body.ov #ov{display:grid;grid-tem
 </div>
 <p class="lead">Một nhân vật, hai phong cách hình ảnh. Render bằng Chrome và ffmpeg, không cần quay dựng.</p>
 <aside>Và đây không còn là lý thuyết: em đã làm thử. Hai MV cho kênh dạy toán "99% from scratch", có nhân vật riêng xuyên suốt — một bản nền sáng kiểu tạp chí, một bản nền tối. Toàn bộ là code, render bằng Chrome và ffmpeg. Nghĩa là năng lực sản xuất đã có; cái mình cần quyết là làm nhân vật nào, cho thị trường nào, bán gì. (Bấm vào video để bật tiếng.)</aside>
+</section>
+
+<section id="process">
+<p class="kicker">Đề xuất 1 · Lợi thế khó sao chép</p>
+<h2>Tài sản thật là quy trình đã đúc kết, không phải từng video</h2>
+<div class="row fill" style="gap:40px">
+<div class="card" style="flex:1">
+<p class="pill" style="align-self:flex-start;background:var(--soft)">Lemo-Opuscar</p>
+<p class="big" style="font-size:72px;margin-top:12px">66</p><p>phong cách, mỗi cái là một prompt kèm phim mẫu</p>
+<p class="big" style="font-size:72px;margin-top:12px">63</p><p>phút phim làm hoàn toàn bằng code</p>
+</div>
+<div class="card" style="flex:1;border:3px solid var(--red)">
+<p class="pill" style="align-self:flex-start">Team mình (dự án mascot-mv)</p>
+<p class="big" style="font-size:72px;margin-top:12px;color:var(--red)">20</p><p>video đã làm: 3 MV, 17 video bài học tiếng Anh và tiếng Nhật</p>
+<p class="big" style="font-size:72px;margin-top:12px;color:var(--red)">135</p><p>lỗi đã gặp, ghi lại thành bài học cho AI tra cứu</p>
+</div>
+</div>
+<p class="lead">Làm xong mỗi video thì cập nhật lại quy trình, nên video sau <b style="color:var(--ink)">nhanh hơn, rẻ hơn, đều hơn</b>.</p>
+<p class="src">Số liệu mascot-mv lấy từ README của dự án · Lemo-Opuscar: trang giới thiệu dự án</p>
+<aside>Điều em muốn nhấn mạnh: thứ có giá trị không phải là một video hay, mà là quy trình đằng sau. Lemo-Opuscar đúc kết thành 66 phong cách dùng lại. Bên mình, dự án mascot-mv đã làm 20 video — 3 MV và 17 video bài học tiếng Anh, tiếng Nhật — và ghi lại 135 lỗi đã gặp thành bài học để AI tự tra trước khi làm. Mỗi video xong, quy trình tốt hơn, video sau nhanh hơn, rẻ hơn, đều hơn. Người khác có thể sao chép một video, nhưng rất khó sao chép quy trình đó.</aside>
 </section>
 
 <section id="div2" class="dark" style="justify-content:center;gap:40px">
@@ -359,7 +418,7 @@ body.ov #stage{display:none} #ov{display:none} body.ov #ov{display:grid;grid-tem
 <div class="col fill" style="gap:24px;justify-content:center">
 <div class="card" style="flex-direction:row;gap:40px;align-items:center;padding:36px 44px"><p class="big" style="font-size:80px;color:var(--red);width:60px">1</p><div class="col" style="gap:8px"><h3>Có sản phẩm thì mới có doanh thu</h3><p>Việc đầu tiên là trả lời được: bán cái gì, bán cho ai.</p></div></div>
 <div class="card" style="flex-direction:row;gap:40px;align-items:center;padding:36px 44px"><p class="big" style="font-size:80px;color:var(--red);width:60px">2</p><div class="col" style="gap:8px"><h3>Chọn từ lợi thế, đừng chọn theo phong trào</h3><p>Công ty hiểu phân phối nội dung, team Tech sản xuất nhanh bằng AI. Sản phẩm nằm ở giao điểm.</p></div></div>
-<div class="card" style="flex-direction:row;gap:40px;align-items:center;padding:36px 44px"><p class="big" style="font-size:80px;color:var(--red);width:60px">3</p><div class="col" style="gap:8px"><h3>Thị trường và công nghệ đều đã sẵn sàng</h3><p>Kênh nhân vật đạt hàng chục triệu view. Team đã tự làm được MV có nhân vật.</p></div></div>
+<div class="card" style="flex-direction:row;gap:40px;align-items:center;padding:36px 44px"><p class="big" style="font-size:80px;color:var(--red);width:60px">3</p><div class="col" style="gap:8px"><h3>Thị trường và công nghệ đều đã sẵn sàng</h3><p>Kênh nhân vật đạt hàng chục triệu view. Phim 6 phút làm hoàn toàn bằng code. Team đã tự làm được MV có nhân vật.</p></div></div>
 </div>
 <aside>Tóm lại ba điều. Một: muốn góp vào doanh thu thì phải có sản phẩm, và câu hỏi đầu tiên là bán gì, bán cho ai. Hai: chọn từ lợi thế của chính mình — hiểu phân phối nội dung và sản xuất nhanh bằng AI — chứ không chạy theo thứ công ty công nghệ đang làm. Ba: thị trường đã chứng minh có người xem, và về kỹ thuật mình đã làm được. Cái còn thiếu chỉ là quyết định và một mục tiêu rõ ràng.</aside>
 </section>

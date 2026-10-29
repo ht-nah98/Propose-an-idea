@@ -1,0 +1,10 @@
+# Chỉ deploy index.html + media/ + robots.txt; mã nguồn slide không cần lên CDN
+slides/
+tools/
+docs/
+build.py
+deck.json
+README.md
+*.md
+.omc/
+.claude/

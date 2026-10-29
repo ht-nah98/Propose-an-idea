@@ -2,6 +2,7 @@
  "title": "Từ bán giờ công sang bán sản phẩm",
  "order": [
   "cover",
+  "agenda",
   "now",
   "questions",
   "noadv",
@@ -18,7 +19,13 @@
   "ourmv",
   "div2",
   "techrule",
-  "duck"
+  "duck",
+  "div3",
+  "recap",
+  "pilot",
+  "needs",
+  "discuss",
+  "end"
  ],
  "description": "Họp định hướng Team Tech: từ bán giờ công sang bán sản phẩm — lợi thế, đề xuất nội dung số có nhân vật và âm nhạc trong thiết bị."
 }

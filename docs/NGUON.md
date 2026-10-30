@@ -11,7 +11,6 @@ Số liệu mạng xã hội thay đổi hằng ngày; tất cả đọc ngày *
 | techref | “i'm upping my p(doom)” — mexicat; “Video mẫu” | `media/ref_pdoom.mp4`, `media/ref_mau.mp4` | 45 s đầu |
 | opuscar | Opuscar 98 — Lemomo · LemoLab, lemomo-ai.github.io/lemo-opuscar/opuscar98 (giấy phép MIT) | `media/opuscar98.mp4` | trích 1:00–1:50 từ bản 1080p trên trang |
 | styles | Khung hình Opuscar 98 (phim số 1, 10, 30, 40, 50, 60, 90, 98) | `media/opus_s*.jpg` | ảnh trong `img/opuscar98/` của trang |
-| process | README dự án mascot-mv (3 MV, 12 + 5 video bài học, 135 bài học trong docs/LESSONS.md) | — | đọc ngày 29/10/2026 |
 | ourmv | MV Add It Up, Exp & Log (repo mascot-mv) | `media/mv_addup.mp4`, `media/mv_explog.mp4` | 60 s đầu |
 | duck | Jensen Huang và robot nhỏ tại GTC Berlin (bản phụ đề VN trên Facebook) | `media/nvidia_duck.mp4` | file người dùng tải về |
 

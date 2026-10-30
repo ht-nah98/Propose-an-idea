@@ -40,7 +40,7 @@ tự co theo màn hình. Lớp `dark` cho slide nền tối, `fill` cho khối c
 index.html        trang đã build (Vercel phục vụ file này)
 build.py          ghép slide + CSS + JS trình chiếu
 deck.json         tiêu đề, mô tả, thứ tự slide
-slides/           28 slide nguồn
+slides/           26 slide nguồn
 media/            ảnh + video đã nén (720p H.264, faststart) — ~48 MB
 tools/check.py    kiểm tra trước khi push
 docs/NGUON.md     nguồn và cách lấy từng số liệu, từng tư liệu
